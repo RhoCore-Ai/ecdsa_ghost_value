@@ -1,11 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "functions": {
-    "dist/server.cjs": {
-      "runtime": "node20.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
