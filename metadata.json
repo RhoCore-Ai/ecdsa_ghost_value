@@ -1,0 +1,6 @@
+{
+  "name": "secp256k1 Cryptanalysis Laboratory",
+  "description": "Erweiterte Analyse-Plattform fuer Bitcoin ECDSA Signaturen (r, s, z) mit Gliederarithmetik (Limb-by-Limb) und Borrow-Bit-Simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
