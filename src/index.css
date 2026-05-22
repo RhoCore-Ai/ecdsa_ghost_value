@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hd-bg: #E4E3E0;
+  --color-hd-ink: #141414;
+  --color-hd-surface: #F0EFEA;
+  --color-hd-line: #141414;
+  --color-hd-accent: #2A5C82;
+  
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --font-serif: "Georgia", serif;
+}
+
+body {
+  background-color: var(--color-hd-bg);
+  color: var(--color-hd-ink);
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+/* Scrollbar customization matching the minimalist industrial theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-hd-surface);
+  border-left: 1px solid var(--color-hd-line);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-hd-line);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hd-accent);
+}
