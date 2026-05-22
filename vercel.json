@@ -3,7 +3,7 @@
   "outputDirectory": "dist",
   "functions": {
     "dist/server.cjs": {
-      "runtime": "nodejs20.x"
+      "runtime": "node20.x"
     }
   },
   "rewrites": [
